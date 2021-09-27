@@ -5,6 +5,31 @@ public class Dog {
     // properties
 
     private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public boolean isHungry() {
+        return hungry;
+    }
+
+    public void setHungry(boolean hungry) {
+        this.hungry = hungry;
+    }
+
     private String color;
     private String breed;
     private boolean hungry;
@@ -29,5 +54,11 @@ public class Dog {
 
     public void bark() {
         System.out.println( this.name + " barking: Woof");
+    }
+
+    // getter methods
+
+    public String getBreed() {
+        return this.breed;
     }
 }

@@ -6,6 +6,7 @@ public class Main {
 
         Dog peter = new Dog("Peter", "Dobermann", "Black");
         peter.bark();
+        System.out.println(peter.getBreed());
 
         Dog shin = new Dog("Shin", "Shih Tzu", "White", false);
         shin.bark();
